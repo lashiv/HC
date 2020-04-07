@@ -1,0 +1,139 @@
+body
+{
+    margin: 0px;
+}
+.topmenu
+{   position: fixed;
+    background-color: lightcyan;
+    padding: 20px 40px;
+    width: 100%;
+}
+.topmenu-text
+{
+    display:inline-block ;
+    color: orange;
+    margin-right: 500px;
+}
+#topmenu-img
+{
+    height: 100px; width: 100px;
+    float: left;
+}
+.myButton 
+{
+	display:inline-block;
+	color: #000000;
+	font-weight:bold;
+	padding: 12px 12px;
+    text-decoration: none;
+}
+.myButton:hover 
+{
+    color: orange;
+}
+.myButton:active 
+{
+	position:relative;
+	top: 1px;
+}
+.dropdown
+{   
+    display: inline-block;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 2px 4px 16px 0px paleturquoise;
+}
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover
+{
+    background-color: lightgrey;
+    color: orange;
+}  
+.headings
+{
+    padding-top: 12px;
+    text-align: center;
+    color: royalblue;
+    font-weight: lighter;
+}
+.hdetail
+{
+    text-align: center;
+}
+.App-screen
+{
+    margin: 50px 20px 0px 150px;
+    float: left;
+}
+.scroll
+{
+    padding-top: 140px;
+}
+.a
+{
+    padding: 20px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    display: inline-block;
+    table-layout: auto;
+    width: 312px;
+}
+th
+{
+    padding: 10px 0px 0px;
+}
+td
+{
+    padding: 7px;
+}
+.b
+{
+    padding: 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    display: inline-block;
+    table-layout: auto;
+    font-weight: lighter;
+    color: #454545;
+    width: 350px;
+    text-align: center;
+    position: static;
+    left: 150;
+}
+.b:hover
+{
+    box-shadow: darkgrey 2px 4px 16px 0px;
+}
+.c
+{
+    word-spacing: 5px;
+    margin: auto;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    width: 1000px;
+}
+.bullet
+{
+    float: left;
+    margin-right: 10px;
+}
+.footer
+{
+    width: 100%;
+    color: royalblue;
+}
