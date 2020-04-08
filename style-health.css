@@ -253,7 +253,7 @@ font-family: 'Ubuntu', sans-serif;
 
 a {
     text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: rgb(208, 215, 247);
+    color: rgb(161, 178, 253);
     text-decoration: none
 }
 
@@ -265,4 +265,31 @@ a {
 {
     color: lightcyan;
     background-color: rgb(209, 240, 255);
+}
+.test 
+{
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:19px;
+	border:3px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 21px;
+	text-decoration:none;
+	text-shadow:0px 0px 50px #3d768a;
+}
+.test:hover 
+{
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.test:active 
+{
+	position:relative;
+	top:1px;
 }
